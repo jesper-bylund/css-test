@@ -7,6 +7,9 @@ Most of my time was spent reading https://www.sneakersnstuff.com's styling to ma
 ## Self assessment
 
 Typescript 2
+
 CSS 3
+
 React 2
+
 GraphQL 1
