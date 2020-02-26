@@ -1,0 +1,140 @@
+.placeholderContent {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.header1 {
+  font-size: 4.209rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.header2 {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+}
+
+.link {
+  text-decoration: underline;
+}
+.link:hover {
+  text-decoration: none;
+}
+
+.productList {
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 0 1.5rem;
+  display: grid;
+  width: 100%;
+  grid-gap: 1.5rem;
+}
+
+.productList > .card {
+  width: auto;
+  margin: 0;
+}
+.productList > .card {
+  flex: 0 0 auto;
+}
+
+.card .img {
+  width: 370px;
+  margin-bottom: 1rem;
+  background-color: #f7f7f7;
+  display: block;
+}
+
+.content {
+  line-height: 24px;
+}
+
+.cardPlaceholder {
+  cursor: pointer;
+}
+.cardPlaceholder:hover img {
+  opacity: 0.5;
+}
+
+.input {
+  border: 1px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 1rem 0;
+  padding: 0.9rem 0.9375rem;
+  width: 100%;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.newInput {
+  border: 1px dashed #000;
+}
+
+.select {
+  border: 1px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 1rem 0;
+  padding: 0.9rem 0.9375rem;
+  width: 100%;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.button:disabled {
+  background-color: transparent;
+  color: #000;
+}
+
+.button {
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 1rem 0;
+  padding: 0.9rem 0.9375rem;
+  width: 100%;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.dropZone {
+  border: 1px dashed #000;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 10;
+  margin: 1rem 0;
+  padding: 0.9rem 0.9375rem;
+  text-align: center;
+  width: 100%;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+}
